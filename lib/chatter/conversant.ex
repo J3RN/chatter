@@ -1,4 +1,9 @@
 defmodule Chatter.Conversant do
+  @moduledoc """
+  The primary user of the platform; someone joining to view or engage in
+  conversations.
+  """
+
   use Ecto.Schema
 
   schema("conversants") do

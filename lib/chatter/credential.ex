@@ -1,4 +1,8 @@
 defmodule Chatter.Credential do
+  @moduledoc """
+  Provides a password mechanism that allows users to be authenticated
+  """
+
   use Ecto.Schema
 
   schema("credentials") do

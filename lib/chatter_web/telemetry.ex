@@ -1,4 +1,8 @@
 defmodule ChatterWeb.Telemetry do
+  @moduledoc """
+  Aggregate telemetry events
+  """
+
   use Supervisor
   import Telemetry.Metrics
 
